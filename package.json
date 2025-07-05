@@ -1,0 +1,29 @@
+{
+  "name": "strapi-ronald-backend",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Backend de Strapi para Ronald Rangel",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/strapi": "4.15.0",
+    "@strapi/plugin-users-permissions": "4.15.0",
+    "@strapi/plugin-i18n": "4.15.0",
+    "pg": "8.8.0"
+  },
+  "author": {
+    "name": "Ronald Rangel"
+  },
+  "strapi": {
+    "uuid": "un-uuid-unico-se-generara-despues"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
